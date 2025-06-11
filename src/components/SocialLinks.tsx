@@ -42,7 +42,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-gray-900 to-purple-900">
+    <section className="py-16 px-4 bg-black/40 backdrop-blur-sm">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-white mb-8 font-montserrat">
           Найти меня в социальных сетях
@@ -54,7 +54,7 @@ const SocialLinks = () => {
               variant="outline"
               size="lg"
               asChild
-              className={`bg-white/10 border-white/20 text-white hover:text-white ${social.color} transition-all duration-300 hover:scale-105`}
+              className={`bg-white/20 border-white/30 text-white hover:text-white ${social.color} transition-all duration-300 hover:scale-105 backdrop-blur-sm`}
             >
               <a
                 href={social.url}

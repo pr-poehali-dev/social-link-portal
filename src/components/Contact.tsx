@@ -25,9 +25,9 @@ const Contact = () => {
   ];
 
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="py-16 px-4 bg-transparent">
       <div className="max-w-4xl mx-auto">
-        <Card className="shadow-lg border-0">
+        <Card className="shadow-2xl border-0 bg-white/95 backdrop-blur-md">
           <CardHeader className="text-center">
             <CardTitle className="text-3xl font-bold text-gray-800 font-montserrat">
               Контакты
